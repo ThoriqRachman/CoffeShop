@@ -4,7 +4,7 @@ import altair as alt
 
 st.title("Coffee Shop Dashboard")
 
-df = pd.read_excel("/workspaces/CoffeShop/Coffe Shop.xlsx")
+df = pd.read_excel("Coffe Shop.xlsx")
 
 #Filter Cabang
 cabang = st.multiselect(
